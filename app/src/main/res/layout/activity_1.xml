@@ -43,24 +43,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="@android:style/TextAppearance.Medium"
-            android:text="@string/question_1_radio_a"/>
+            android:text="@string/question_1_radio_a"
+            android:onClick="click"/>
         <RadioButton
             android:id="@+id/radio_b"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="@android:style/TextAppearance.Medium"
-            android:text="@string/question_1_radio_b"/>
+            android:text="@string/question_1_radio_b"
+            android:onClick="click"/>
         <RadioButton
             android:id="@+id/radio_c"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="@android:style/TextAppearance.Medium"
-            android:text="@string/question_1_radio_c"/>
+            android:text="@string/question_1_radio_c"
+            android:onClick="click"/>
 
         </RadioGroup>
 
         <Button
-            android:id="@+id/nextbtn"
+            android:id="@+id/btn_next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
